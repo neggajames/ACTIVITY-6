@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Float Positioning</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="nav">
+    <div class="container">
+      <a href="index.html">Home</a>
+      <a href="static.html">Static</a>
+      <a href="relative.html">Relative</a>
+      <a href="absolute.html">Absolute</a>
+      <a href="fixed.html">Fixed</a>
+      <a href="sticky.html">Sticky</a>
+      <a href="float.html">Float</a>
+      <a href="alignment.html">Alignment</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1>Float Positioning</h1>
+    <p>Images can be floated left or right, letting text wrap around them.</p>
+
+    <div class="stage clearfix">
+      <img src="car.jpg" class="float-left" alt="Float Left">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        The image on the left floats, and text flows around it. 
+        This is useful for placing an image in a block of text, like in articles.
+      </p>
+
+      <img src="car.jpg" class="float-right" alt="Float Right">
+      <p>
+        Now this image floats to the right. Text continues to wrap neatly around it. 
+        Floats are commonly used in simple layouts, but have been mostly replaced 
+        by Flexbox and Grid.
+      </p>
+    </div>
+
+    <div class="footer">
+      Shared external stylesheet: <kbd>style.css</kbd>
+    </div>
+  </div>
+</body>
+</html>
